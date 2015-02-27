@@ -69,7 +69,7 @@ public class Main {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame("SAT Helper");
+		frame = new JFrame(Constants.TITLE);
 		// frame.setBounds(50, 50, 800, 700);
 		frame.setBounds(250, 150, 700, 400);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

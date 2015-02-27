@@ -510,7 +510,7 @@ public class WList {
 	@SuppressWarnings("unchecked")
 	private void initialize() throws IOException, ParserConfigurationException,
 	SAXException {
-		frame = new JFrame("My Dictionary");
+		frame = new JFrame(Constants.TITLE);
 		// frame.setBounds(50, 50, 800, 700);
 		frame.setBounds(250, 150, 740, 400);
 		// panel = new TablePanel();
